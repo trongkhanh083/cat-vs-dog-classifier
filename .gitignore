@@ -8,9 +8,6 @@ data/val
 data/test/
 data/realworld_test
 
-# Model checkpoints
-checkpoints/
-
 # Outputs prediction
 outputs/
 
