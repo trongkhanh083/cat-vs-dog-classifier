@@ -1,0 +1,18 @@
+# configs/default.yaml
+
+# where your raw images live
+raw_dir: data/raw
+
+# top‐level data folder (prepare_data writes into data/{train,val,test})
+data_dir: data
+
+# where to save and load your best model
+ckpt_path: checkpoints/best_scratch_model.h5
+
+# training hyperparameters
+epochs: 30
+batch_size: 32
+
+# prediction settings
+test_dir: data/test
+num_images: 100
