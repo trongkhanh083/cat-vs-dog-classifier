@@ -16,7 +16,7 @@ A computer vision project built with TensorFlow that classifies images as **cats
 
 ## ⚙️ Installation
    ```bash
-   git clone https://github.com/yourusername/cat-vs-dog-classifier.git
+   git clone https://github.com/trongkhanh083/cat-vs-dog-classifier.git
    cd cat-vs-dog-classifier
    pip install -r requirements.txt
    ```
