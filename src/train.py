@@ -4,7 +4,7 @@ from src.dataset import prepare_data, get_generator
 import os
 import pickle
 
-### Model Training
+### Model Training (remember to create checkpoints folder)
 # Training custom CNN
 def train():
     

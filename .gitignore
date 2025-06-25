@@ -1,0 +1,18 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+notebooks/
+
+# Data folders
+data/train/
+data/val
+data/test/
+data/realworld_test
+
+# Model checkpoints
+checkpoints/
+
+# Outputs prediction
+outputs/
+
+# Byte-compiled
+src/__pycache__/
