@@ -46,8 +46,8 @@ def train():
         callbacks=callbacks
     )
 
-    os.makedirs('outputs', exist_ok=True)
-    history_path = f"outputs/history.pkl"
+    os.makedirs('output', exist_ok=True)
+    history_path = f"output/history.pkl"
     with open(history_path, 'wb') as f:
         pickle.dump(history.history, f)
 
