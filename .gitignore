@@ -9,7 +9,7 @@ data/test/
 data/realworld_test
 
 # Outputs prediction
-outputs/
+output/
 
 # Byte-compiled
 src/__pycache__/
