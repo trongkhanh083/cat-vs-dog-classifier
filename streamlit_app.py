@@ -21,7 +21,7 @@ st.write("Upload an image and I'll tell you if it's a cat or dog.")
 uploaded = st.file_uploader("Choose an image...", type=["jpg","jpeg","png"])
 if uploaded is not None:
     img = Image.open(uploaded).convert("RGB")
-    st.image(img, caption="Uploaded image", use_column_width=True)
+    st.image(img, caption="Uploaded image")
     x = np.array(img.resize((128,128))) / 255.0
     pred = model.predict(x[np.newaxis,...])[0][0]
     label = "Dog" if pred > 0.5 else "Cat"
