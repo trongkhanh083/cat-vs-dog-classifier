@@ -5,7 +5,7 @@ import numpy as np
 
 # Page configuration
 st.set_page_config(
-    page_title="Cat vs. Dog Classifier",
+    page_title="Cat vs Dog Classifier",
     page_icon="🐱🐶",
     layout="wide"
 )
