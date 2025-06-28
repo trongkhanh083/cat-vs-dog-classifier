@@ -3,6 +3,13 @@ import tensorflow as tf
 from PIL import Image
 import numpy as np
 
+# Page configuration
+st.set_page_config(
+    page_title="Cat vs. Dog Classifier",
+    page_icon="🐱🐶",
+    layout="wide"
+)
+
 @st.cache_resource
 def load_model(path):
     return tf.keras.models.load_model(path)
