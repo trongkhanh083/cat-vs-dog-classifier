@@ -53,10 +53,10 @@ def main():
     model = load_model('checkpoints/best_model_scratch.h5')
 
     # Predict on test set
-    predict_and_display_test_set('data/test', model, 'outputs/prediction.png', num_images=100)
+    predict_and_display_test_set('data/test', model, 'output/prediction.png', num_images=100)
 
     # Optional for your image (create realworld_test folder contain cat and dog subfolder)
-    #predict_and_display_test_set('data/realworld_test', model, 'outputs/pred_realworld.png', num_images=50)
+    #predict_and_display_test_set('data/realworld_test', model, 'output/pred_realworld.png', num_images=50)
 
 
 if __name__=="__main__":
