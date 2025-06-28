@@ -27,7 +27,7 @@ def evaluate():
 
 
     # Plot accuracy and loss curve
-    history_path = "outputs/history.pkl"
+    history_path = "output/history.pkl"
     with open(history_path, 'rb') as f:
         history = pickle.load(f)
 
@@ -45,9 +45,9 @@ def evaluate():
     plt.xlabel('Epoch')
     plt.legend()
     plt.tight_layout()
-    plt.savefig('outputs/accuracy.png')
+    plt.savefig('output/accuracy.png')
     plt.close()
-    print(f"Saved accuracy curves to {'outputs/accuracy.png'}")
+    print(f"Saved accuracy curves to {'output/accuracy.png'}")
 
     plt.figure()
     plt.plot(epochs, loss, label='Train loss')
@@ -57,9 +57,9 @@ def evaluate():
     plt.xlabel('Epoch')
     plt.legend()
     plt.tight_layout()
-    plt.savefig('outputs/loss.png')
+    plt.savefig('output/loss.png')
     plt.close()
-    print(f"Saved loss curves to {'outputs/loss.png'}")
+    print(f"Saved loss curves to {'output/loss.png'}")
     
 
 def main():
