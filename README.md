@@ -14,6 +14,7 @@ A computer vision project built with TensorFlow that classifies images as **cats
 - Easy deployment to Streamlit Cloud
 
 ## ⚙️ Installation
+- Python 3.10+
    ```bash
    git clone https://github.com/trongkhanh083/cat-vs-dog-classifier.git
    cd cat-vs-dog-classifier
